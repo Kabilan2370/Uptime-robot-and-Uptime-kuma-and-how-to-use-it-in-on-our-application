@@ -18,9 +18,14 @@ To use this we need to self host. Here, I used kuma through docker container.
     louislam/uptime-kuma:1
 
 **Here, -v          - Volume
-      uptime-kuma - volume name
-      /app/data   - dir inside the container**
+uptime-kuma - volume name
+/app/data   - dir inside the container**
+
+I launched this container with uptime-kuma docker image then Launched this container on port 3001.
 
 ### We can check the volume what we created, using this command
 
     sudo docker volume inspect uptime-kuma
+
+### Using public ip we can access uptime-kuma through web.
+http://172.30.118.228:3001
