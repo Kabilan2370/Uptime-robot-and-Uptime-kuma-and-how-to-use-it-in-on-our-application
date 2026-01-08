@@ -30,4 +30,4 @@ I launched this container with uptime-kuma docker image then Launched this conta
 ### Using public ip we can access uptime-kuma through web.
 http://172.30.118.228:3001
 
-![image](./moni.png)
+![image](./tool.png)
